@@ -1,0 +1,118 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+body {
+  font-family: "Lato", sans-serif; }
+
+header {
+  background-color: #6c6f9c;
+  font-weight: 400;
+  font-size: 15px;
+  color: #312f2f;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: 0; }
+
+.header_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.header_ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none; }
+
+.header_li {
+  text-decoration: none;
+  margin-top: 13px;
+  font-weight: 300;
+  cursor: pointer;
+  -webkit-transition: 0.3s color;
+  transition: 0.3s color;
+  color: #312f2f; }
+
+.header_li ~ .header_li {
+  margin-left: 70px; }
+
+.header_logo_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.header_logo_text {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #191717;
+  font-size: 25px; }
+
+.header_logo_block {
+  width: 30%; }
+
+.header_li_hover {
+  color: #000000;
+  font-weight: 400;
+  scale: 1.05;
+  text-shadow: 5px 5px 30px; }
+
+.header_li_nohover {
+  font-weight: 300;
+  color: #565454; }
+
+main {
+  padding-top: 125px;
+  background-color: #e3dfdf;
+  padding-bottom: 80px; }
+
+.main_h1 {
+  text-align: center;
+  font-size: 40px; }
+
+.main_h2 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 80px; }
+
+footer {
+  background-color: #6c6f9c;
+  font-weight: 400;
+  font-size: 15px;
+  color: #191717;
+  padding: 10px;
+  padding-bottom: 0px; }
+
+.footer_logo_block {
+  display: block;
+  text-align: center; }
+
+.footer_logo_text {
+  color: #191717;
+  font-size: 20px; }
+
+.footer_icons {
+  display: block;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

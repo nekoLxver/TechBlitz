@@ -1,0 +1,72 @@
+.container2 {
+  max-width: 950px;
+  margin: 0 auto; }
+
+.btn-itstart-alert {
+  position: relative;
+  left: 42%; }
+
+main {
+  padding-top: 109px; }
+
+.main-h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px; }
+
+.main-h2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 25px; }
+
+.main-paragraph {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 25px; }
+
+.main-ul {
+  list-style-type: disc;
+  color: #666;
+  margin-left: 20px; }
+
+.main-li {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 10px; }
+
+.text-center {
+  margin-top: 50px;
+  opacity: 0;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  scale: 0.5; }
+
+.text-center-visible {
+  opacity: 1;
+  scale: 1.05; }
+
+.text-center img {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.list-group {
+  position: fixed;
+  border-radius: 10px;
+  border: solid 1px white; }
+
+.list-group-item {
+  cursor: pointer;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease; }
+
+.list-group-item:hover {
+  -webkit-transform: translateX(2px);
+          transform: translateX(2px); }
+
+.main-h2-centered {
+  text-align: center; }
+
+/*# sourceMappingURL=itstart.css.map */
